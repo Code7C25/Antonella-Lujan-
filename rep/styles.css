@@ -1,0 +1,26 @@
+.navigation {
+    display:flex; /*utiliza flexbox para organizar los elementos hijos (items de navegacion
+ en una fila flexible */
+    gap: 3rem;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0 3rem;
+}
+a {
+    text-decoration: none; /* elimina el subrayado en los enlaces*/
+    color:lightpink; /*color del texto de los enlaces a negro*/
+}
+.sobremi {
+    display:flex;
+    justify-content: center;
+}
+.container-sobremi {
+    display: flex;
+    width: 50%;
+    padding: 2rem;
+    margin-top: 5rem;
+    line-height: 2.5;
+    font-size: large;
+    color:beige
+
+}
