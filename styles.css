@@ -8,19 +8,10 @@
 }
 a {
     text-decoration: none; /* elimina el subrayado en los enlaces*/
-    color:lightpink; /*color del texto de los enlaces a negro*/
+    color:dodgerblue; /*color del texto de los enlaces a negro*/
 }
-.sobremi {
-    display:flex;
-    justify-content: center;
-}
-.container-sobremi {
-    display: flex;
-    width: 50%;
-    padding: 2rem;
-    margin-top: 5rem;
-    line-height: 2.5;
-    font-size: large;
-    color:beige
 
+body {
+    background-color: lightblue; 
+    font-family: Arial, sans-serif;
 }

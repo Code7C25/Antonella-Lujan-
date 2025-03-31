@@ -1,0 +1,14 @@
+.sobremi {
+    display:flex;
+    justify-content: center;
+}
+.container-sobremi {
+    display: flex;
+    width: 50%;
+    padding: 2rem;
+    margin-top: 5rem;
+    line-height: 2.5;
+    font-size: large;
+    color:beige
+
+}
