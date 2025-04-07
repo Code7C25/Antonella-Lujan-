@@ -1,33 +1,8 @@
-
-.container-experiencia, .container-estudios{
-    width: 100%;
+.experiencia, .estudios{
+    display:flex;
+    justify-content: center;
     padding: 2rem;
-    margin-top: 5rem;
-    line-height: 2.4rem;
-    font-size: large;
-    margin: 8rem;
-}
-@media (max-width: 768px) {
-    .experiencias {
-        width: 100%; /* Ancho completo en pantallas pequeñas */
-        padding: 1rem; /* Espacio interno reducido */
-        margin-top: 1rem; /* Margen superior reducido */
-        font-size: small; /* Tamaño de la fuente más pequeño */
-    }
+    color: rgb(255, 255, 255);
 
-    .container-experiencias {
-        width: 100%; /* Ancho del contenedor */
-        margin-top: 0rem; /* Margen superior reducido */
-    }
 }
-@media (min-width: 1024px) {
-    .experiencias {
-        width: 75%; /* Ancho del contenedor */
-        padding: 2rem; /* Espacio interno adecuado */
-    }
 
-    .container-experiencias {
-        font-size: 1.3rem; /* Tamaño de fuente más grande */
-    }
-    
-}
