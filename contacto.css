@@ -1,18 +1,15 @@
 
-
-.sobremi {
+.contacto {
     display:flex;
     justify-content: center;
 }
-.container-sobremi {
+.container-contacto {
     display: flex;
     width: 50%;
     padding: 2rem;
     margin-top: 5rem;
     line-height: 2.5;
     font-size: large;
-    color:black;
-    gap: 2rem; 
-    
+    color:beige
 
 }

@@ -1,3 +1,27 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: beige;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    height: 200vh;
+  }
+  .container {
+    width: 1000%;
+    max-width: 900px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 .navigation {
     display:flex; /*utiliza flexbox para organizar los elementos hijos (items de navegacion
  en una fila flexible */
@@ -7,11 +31,24 @@
     margin: 0 3rem;
 }
 a {
-    text-decoration: none; /* elimina el subrayado en los enlaces*/
-    color:dodgerblue; /*color del texto de los enlaces a negro*/
+    text-decoration: none;
+    color:burlywood;
 }
 
-body {
-    background-color: lightblue; 
-    font-family: Arial, sans-serif;
+
+.linea {
+    border: burlywood;
+    border-top: 2px solid hsla(45, 70%, 53%, 0.208); 
+    margin: 20px 0; 
+  }
+
+.mifoto{
+    margin: 5px;
+    border: solid 2px silver;
+}
+
+.img-perfil {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil alrededor de la imagen */
 }
